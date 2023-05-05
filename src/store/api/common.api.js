@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const commonApi = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: '/reactjs-workshop/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: '/reactjs-workshop' }),
   endpoints: () => ({}),
 });
 
