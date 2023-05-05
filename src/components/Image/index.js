@@ -5,7 +5,7 @@ const Image = ({ src, title }) => {
         title={title}
         className='w-full h-full bg-no-repeat bg-center bg-cover transition ease-in-out hover:scale-125 duration-700'
         style={{
-          backgroundImage: `url(${src}), url(/slices/placeholder_for_missing_posters.png)`
+          backgroundImage: `url(${src}), url(slices/placeholder_for_missing_posters.png)`
         }}
       />
     </div>
