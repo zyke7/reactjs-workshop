@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-pattern': "url('/src/assets/slices/nav_bar.png')",
+        'header-pattern': "url('/public/slices/nav_bar.png')",
       }
     },
   },
